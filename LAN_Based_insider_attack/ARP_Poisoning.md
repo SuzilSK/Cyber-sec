@@ -125,3 +125,10 @@ Open a HTTP Web page and give the username and login to the website and observe 
 
 after logging to the website open Ettercap and check for the username and password that the attacked system used to log in to the webpage will be displayed by the MITM attacker or ONpath Attack.
 ![image](https://github.com/SuzilSK/Cyber-sec/assets/129137449/3572c6ce-bed4-4588-bc56-02f94eacf4cf)
+
+## Step:7 
+
+After the successfull implementation of the attack the attacked machine target will have splunk installed in it and captures all the HTTP traffic transferred from this machine to the splunk server machine the logs generated and forwarded is saved below is the screenshot
+
+![Screenshot from 2024-01-28 22-53-53](https://github.com/SuzilSK/Cyber-sec/assets/129137449/85f1354c-4dd6-4de1-bc07-a9c7a0f30cd9)
+![Screenshot from 2024-01-28 22-57-00](https://github.com/SuzilSK/Cyber-sec/assets/129137449/30620b8c-06a7-4403-a692-b919a2b2f5f8)

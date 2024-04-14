@@ -223,21 +223,21 @@ o/p
 ![Screenshot from 2024-04-14 18-25-04](https://github.com/SuzilSK/Cyber-sec/assets/129137449/e44f3639-ba0b-4825-8f62-7bcd1ad38717)      
 
 Note we can also provide the ip address of the wazuh-server in the wazuh-agent installed configuration file which is in the directory  /var/ossec/etc/ossec.conf find    
-<ossec_config>    
-  <client>   
-    <server>   
-      <address>10.11.132.128</address>   
-      <port>1514</port>   
-      <protocol>tcp</protocol>   
-    </server>   
-    <config-profile>ubuntu, ubuntu20, ubuntu20.04</config-profile>   
-    <notify_time>10</notify_time>   
-    <time-reconnect>60</time-reconnect>   
-    <auto_restart>yes</auto_restart>   
-    <crypto_method>aes</crypto_method>   
-  </client>   
+ <ossec_config>    
+   <client>   
+     <server>   
+       <address>10.11.132.128</address>   
+       <port>1514</port>   
+       <protocol>tcp</protocol>   
+     </server>   
+     <config-profile>ubuntu, ubuntu20, ubuntu20.04</config-profile>   
+     <notify_time>10</notify_time>   
+     <time-reconnect>60</time-reconnect>   
+     <auto_restart>yes</auto_restart>   
+     <crypto_method>aes</crypto_method>   
+   </client>   
 
-  change the <address>10.11.132.128</address> to the wazuh-servers ip address    
+change the <address>10.11.132.128</address> to the wazuh-servers ip address    
 
 ----------------------------------------------------------------------------------------------------------------------
 Note:   

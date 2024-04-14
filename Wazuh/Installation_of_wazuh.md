@@ -254,8 +254,7 @@ in the server initially the will be not set for vulnerability scanning
 
 We need to edit with the below code       
 
-<!-- change-the-code-from-the-above-directory --> 
-
+```
 <agent_config>
 
   <!-- Shared agent configuration here -->
@@ -268,6 +267,7 @@ We need to edit with the below code
 </wodle>
 
 </agent_config>
+```
   
 
 below image after editing with the above code   
@@ -275,9 +275,9 @@ below image after editing with the above code
 
 We need to edit the /var/ossec/etc/ossec.conf to yes as shown in the below screenshot. refer the link https://documentation.wazuh.com/current/user-manual/capabilities/vulnerability-detection/configuring-scans.html   
 
-<!-- edit-the-file-accordingly --> 
 
-  <vulnerability-detector>   
+  ```
+<vulnerability-detector>   
     <enabled>yes</enabled>   
     <interval>5m</interval>   
     <min_full_scan_interval>6h</min_full_scan_interval>   
@@ -361,7 +361,8 @@ We need to edit the /var/ossec/etc/ossec.conf to yes as shown in the below scree
       <update_interval>1h</update_interval>   
     </provider>   
 
-  </vulnerability-detector>    
+  </vulnerability-detector>
+```   
 
 also edit according to the need of the your requirement in the wazuh .config file
 after editing the file save it and restart wazuh-manager    

@@ -254,6 +254,8 @@ in the server initially the will be not set for vulnerability scanning
 
 We need to edit with the below code       
 
+<!-- change-the-code-from-the-above-directory --> 
+
 <agent_config>
 
   <!-- Shared agent configuration here -->
@@ -272,6 +274,8 @@ below image after editing with the above code
 ![image](https://github.com/SuzilSK/Cyber-sec/assets/129137449/39b86e40-eabd-43db-8146-89b7271895ea)
 
 We need to edit the /var/ossec/etc/ossec.conf to yes as shown in the below screenshot. refer the link https://documentation.wazuh.com/current/user-manual/capabilities/vulnerability-detection/configuring-scans.html   
+
+<!-- edit-the-file-accordingly --> 
 
   <vulnerability-detector>   
     <enabled>yes</enabled>   
